@@ -5,6 +5,7 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.swing.plaf.synth.SynthSeparatorUI;
 
 /**
  * Servlet implementation class TestServlet
@@ -34,6 +35,7 @@ public class TestServlet extends HttpServlet {
 		// TODO Auto-generated method stub
 		
 		System.out.println("master branch上的代码");
+		System.out.println("修改后的代码");
 		request.getRequestDispatcher("/master.jsp").forward(request, response);
 		
 	}

@@ -36,6 +36,7 @@ public class TestServlet extends HttpServlet {
 		
 		System.out.println("master branch上的代码");
 		System.out.println("修改后的代码");
+		System.out.println("分支上写的代码");
 		request.getRequestDispatcher("/master.jsp").forward(request, response);
 		
 	}
